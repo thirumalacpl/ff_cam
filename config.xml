@@ -21,7 +21,7 @@
 
   <gap:plugin name="org.apache.cordova.battery-status"/>
   
-  <gap:plugin name="org.apache.cordova.media-capture" />
+  <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
   <gap:plugin name="org.apache.cordova.console"/>
   <gap:plugin name="org.apache.cordova.contacts"/>
   <gap:plugin name="org.apache.cordova.device"/>
@@ -31,8 +31,8 @@
 
 
 
-  <gap:plugin name="org.apache.cordova.geolocation" />
-  <gap:plugin name="org.apache.cordova.globalization"  />
+  <gap:plugin name="org.apache.cordova.geolocation" source="npm" />
+  <gap:plugin name="org.apache.cordova.globalization" source="npm" />
   <gap:plugin name="org.apache.cordova.media"  />
   <gap:plugin name="org.apache.cordova.vibration"/>
 
